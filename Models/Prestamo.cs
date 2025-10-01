@@ -11,7 +11,7 @@ namespace BibliotecaApp.Models
         public Usuario Usuario { get; set; }
         public Libro Libro { get; set; }
         public DateTime FechaPrestamo { get; set; }
-        public DateTime FechaDevolucion { get; set }
+        public DateTime FechaDevolucion { get; set; }
 
         public override string ToString()
         {
