@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BibliotecaApp.Models
+﻿namespace BibliotecaApp.Models
 {
     public class Usuario
     {
         public string Nombre { get; set; }
-        public string ID { get; set; } //cédula o pasaporte
+        public string Id { get; set; } // Ejemplo: cédula o carnet
     }
 }

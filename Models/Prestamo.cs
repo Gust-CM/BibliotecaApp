@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BibliotecaApp.Models
+﻿namespace BibliotecaApp.Models
 {
     public class Prestamo
     {
         public Usuario Usuario { get; set; }
         public Libro Libro { get; set; }
         public DateTime FechaPrestamo { get; set; }
-        public DateTime FechaDevolucion { get; set; }
+        public DateTime? FechaDevolucion { get; set; }
 
         public override string ToString()
         {
